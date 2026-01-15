@@ -65,25 +65,25 @@ POST
 Request Body
 
 {
-  "name": "TechCorp",
-  "location": "Pune",
-  "about": "Software Development Company",
-  "company_type": "startup",
-  "active": true
+    "name": "TechCorp",
+    "location": "Pune",
+    "about": "Software Development Company",
+    "company_type": "startup",
+    "active": true
 }
 
 
 Response
 
 {
-  "company_id": 1,
-  "name": "TechCorp",
-  "location": "Pune",
-  "about": "Software Development Company",
-  "company_type": "startup",
-  "created_at": "2026-01-15T10:00:00Z",
-  "updated_at": "2026-01-15T10:00:00Z",
-  "active": true
+    "company_id": 1,
+    "name": "TechCorp",
+    "location": "Pune",
+    "about": "Software Development Company",
+    "company_type": "startup",
+    "created_at": "2026-01-15T10:00:00Z",
+    "updated_at": "2026-01-15T10:00:00Z",
+    "active": true
 }
 
 ➤ List Companies
@@ -118,6 +118,7 @@ Response
   }
 ]
 
+
 👨‍💼 Employee APIs
 ➤ Create Employee
 
@@ -129,27 +130,27 @@ POST
 Request Body
 
 {
-  "name": "Rahul Sharma",
-  "email": "rahul@techcorp.com",
-  "address": "Pune, India",
-  "phone": "+919876543210",
-  "about": "Backend Developer",
-  "employee_position": "senior",
-  "company": 1,
-  "active": true
+    "name": "Rahul Sharma",
+    "email": "rahul@techcorp.com",
+    "address": "Pune, India",
+    "phone": "+919876543210",
+    "about": "Backend Developer",
+    "employee_position": "senior",
+    "company": 1,
+    "active": true
 }
 
 
 Response
 
 {
-  "id": 1,
-  "name": "Rahul Sharma",
-  "email": "rahul@techcorp.com",
-  "employee_position": "senior",
-  "company": 1,
-  "company_name": "TechCorp",
-  "active": true
+    "id": 1,
+    "name": "Rahul Sharma",
+    "email": "rahul@techcorp.com",
+    "employee_position": "senior",
+    "company": 1,
+    "company_name": "TechCorp",
+    "active": true
 }
 
 ➤ List Employees
@@ -175,11 +176,11 @@ POST
 Request Body
 
 {
-  "employee": 1,
-  "leave_type": "sick",
-  "start_date": "2026-01-20",
-  "end_date": "2026-01-22",
-  "reason": "Fever and rest"
+    "employee": 1,
+    "leave_type": "sick",
+    "start_date": "2026-01-20",
+    "end_date": "2026-01-22",
+    "reason": "Fever and rest"
 }
 
 
@@ -188,15 +189,15 @@ Request Body
 Response
 
 {
-  "id": 1,
-  "employee": 1,
-  "employee_name": "Rahul Sharma",
-  "company": 1,
-  "leave_type": "sick",
-  "start_date": "2026-01-20",
-  "end_date": "2026-01-22",
-  "reason": "Fever and rest",
-  "status": "pending"
+    "id": 1,
+    "employee": 1,
+    "employee_name": "Rahul Sharma",
+    "company": 1,
+    "leave_type": "sick",
+    "start_date": "2026-01-20",
+    "end_date": "2026-01-22",
+    "reason": "Fever and rest",
+    "status": "pending"
 }
 
 ➤ List All Leaves
@@ -263,4 +264,5 @@ python manage.py runserver
 👨‍💻 Author
 
 Dattatraya Walunj
+
 Senior Django Backend Developer
